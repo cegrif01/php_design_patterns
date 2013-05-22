@@ -10,5 +10,8 @@
     include('inc/init.inc.php');
 
         $salesman = new Salesman(15000.00);
+        $salesman->setBonusOption(new GetsBonus());
+        print("Salesman: ". $salesman->getPay());
 
-        print("Salesman ". $salesman->getPay());
+        $trainee = new Salesman(15000,new NoBonus());
+        print("Trainee: ". $trainee->getPay());

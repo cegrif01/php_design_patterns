@@ -51,14 +51,7 @@
         {
             //This will be a pay type object.  The default would be a NoBonus object
             $this->payType = new NoBonus();
-            //since php doesn't have overloaded constructors
-            //notice the $salaryAndOrPay variable takes on the role as an array
-            if(is_array($salaryAndOrPay))
-            {
-                $this->salary=$salaryAndOrPay['salary'];
-                $this->payType=$salaryAndOrPay['payTypeObject'];
-                return false;
-            }
+
             //php's dynamic typing is crazy!  Notice the $salaryAndOrPay variable becomes an integer
             //just by not having an index
             $this->salary=$salaryAndOrPay;
@@ -67,7 +60,7 @@
 
         public function setBonusOption($newPayTypeObject)
         {
-            $payType= new $newPayTypeObject;
+            $this->payType= new $newPayTypeObject;
         }
 
         public function getPay()
@@ -85,7 +78,7 @@
             parent::__construct($salary);
             //clever way to get past php's lack of overloaded constructor
             if(!empty($payType))
-                setBonusOption($payType);
+                $this->setBonusOption($payType);
         }
     }
 
@@ -97,6 +90,6 @@
             parent::__construct($salary);
             //clever way to get past php's lack of overloaded constructor
             if(!empty($payType))
-                setBonusOption($payType);
+                $this->setBonusOption($payType);
         }
     }

@@ -4,13 +4,13 @@
     <list default="true" id="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" name="Default" comment="" />
     <ignored path="design_patterns.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369185220227" ignored="false" />
+    <file path="/index.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369187472153" ignored="false" />
     <file path="/init.inc.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369184307343" ignored="false" />
     <file path="/CalculateSalary.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369172830729" ignored="false" />
     <file path="/a.dummy" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369177169018" ignored="false" />
     <file path="/Dummy.txt" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369166081951" ignored="false" />
     <file path="/Employees.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369171398796" ignored="false" />
-    <file path="/Employee.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369186323658" ignored="false" />
+    <file path="/Employee.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369187067624" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="-4.137931">
+            <state line="16" column="35" selection-start="436" selection-end="436" vertical-scroll-proportion="-6.8965516">
               <folding />
             </state>
           </provider>
@@ -42,7 +42,7 @@
       <file leaf-file-name="Employee.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/Employee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="24" selection-start="763" selection-end="763" vertical-scroll-proportion="0.36320755">
+            <state line="47" column="10" selection-start="952" selection-end="952" vertical-scroll-proportion="-0.03773585">
               <folding>
                 <element signature="e#6#164#0" expanded="false" />
               </folding>
@@ -63,8 +63,8 @@
         <option value="$PROJECT_DIR$/application/CalculateSalary.php" />
         <option value="$PROJECT_DIR$/application/Employees.php" />
         <option value="$PROJECT_DIR$/inc/init.inc.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/application/Employee.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -286,14 +286,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="-4.137931">
+        <state line="16" column="35" selection-start="436" selection-end="436" vertical-scroll-proportion="-6.8965516">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/Employee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="24" selection-start="763" selection-end="763" vertical-scroll-proportion="0.36320755">
+        <state line="47" column="10" selection-start="952" selection-end="952" vertical-scroll-proportion="-0.03773585">
           <folding>
             <element signature="e#6#164#0" expanded="false" />
           </folding>
