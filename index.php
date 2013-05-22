@@ -7,5 +7,8 @@
  * To change this template use File | Settings | File Templates.
  */
 
-include('inc/init.inc.php');
+    include('inc/init.inc.php');
 
+        $salesman = new Salesman(15000.00);
+
+        print("Salesman ". $salesman->getPay());

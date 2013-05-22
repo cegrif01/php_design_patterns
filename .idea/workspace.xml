@@ -4,12 +4,13 @@
     <list default="true" id="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" name="Default" comment="" />
     <ignored path="design_patterns.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369165656243" ignored="false" />
-    <file path="/init.inc.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369165562299" ignored="false" />
+    <file path="/index.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369185220227" ignored="false" />
+    <file path="/init.inc.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369184307343" ignored="false" />
     <file path="/CalculateSalary.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369172830729" ignored="false" />
-    <file path="/a.dummy" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369165708441" ignored="false" />
+    <file path="/a.dummy" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369177169018" ignored="false" />
     <file path="/Dummy.txt" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369166081951" ignored="false" />
     <file path="/Employees.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369171398796" ignored="false" />
+    <file path="/Employee.php" changelist="f5428c0f-6fb8-4594-99ba-9bff1672ef8b" time="1369186323658" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,31 +33,18 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="-7.3333335">
-              <folding>
-                <element signature="e#6#164#0" expanded="true" />
-              </folding>
+            <state line="12" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="-4.137931">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="init.inc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inc/init.inc.php">
+      <file leaf-file-name="Employee.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/Employee.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="316" selection-end="316" vertical-scroll-proportion="-8.0">
+            <state line="41" column="24" selection-start="763" selection-end="763" vertical-scroll-proportion="0.36320755">
               <folding>
-                <element signature="e#6#164#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Employees.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/Employees.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="35" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.7837838">
-              <folding>
-                <element signature="e#6#164#0" expanded="true" />
+                <element signature="e#6#164#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -72,19 +60,19 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/inc/init.inc.php" />
         <option value="$PROJECT_DIR$/application/CalculateSalary.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/application/Employees.php" />
+        <option value="$PROJECT_DIR$/inc/init.inc.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/application/Employee.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="x" value="-3" />
+    <option name="width" value="1686" />
+    <option name="height" value="1052" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -127,7 +115,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="design_patterns" />
+              <option name="myItemId" value="php_design_patterns" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -137,7 +125,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="php_design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="inc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="design_patterns" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php_design_patterns" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -178,26 +180,26 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-3" y="0" width="1686" height="1052" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964131" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15605876" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -226,7 +228,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -261,29 +263,39 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/inc/init.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="316" selection-end="316" vertical-scroll-proportion="-8.0">
-          <folding>
-            <element signature="e#6#164#0" expanded="true" />
-          </folding>
+        <state line="12" column="38" selection-start="316" selection-end="316" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inc/init.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="23" selection-start="381" selection-end="381" vertical-scroll-proportion="0.16509435">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="-7.3333335">
-          <folding>
-            <element signature="e#6#164#0" expanded="true" />
-          </folding>
+        <state line="12" column="0" selection-start="244" selection-end="244" vertical-scroll-proportion="-4.137931">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/Employees.php">
+    <entry file="file://$PROJECT_DIR$/application/Employee.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="35" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.7837838">
+        <state line="41" column="24" selection-start="763" selection-end="763" vertical-scroll-proportion="0.36320755">
           <folding>
-            <element signature="e#6#164#0" expanded="true" />
+            <element signature="e#6#164#0" expanded="false" />
           </folding>
         </state>
       </provider>

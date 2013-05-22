@@ -10,4 +10,7 @@
 //this file gets loaded by index.php so I should include all the class files here
 
 $ini_path=dirname(__FILE__);
-$app_path=$ini_path. "../application";
+//$app_path = "/opt/lampp/htdocs/php_design_patterns/application/Employee.php";
+$app_path=$ini_path. "/../application/Employee.php";
+include($app_path);
+
