@@ -5,6 +5,11 @@
  * Date: 5/21/13
  * Time: 3:46 PM
  * To change this template use File | Settings | File Templates.
+ *
+ * This file represents code refactoring tutorial number 7
+ * https://www.youtube.com/watch?v=owss5KuioFs&list=PLGLfVvz_LVvSuz6NuHAzpM52qKM6bPlCV
+ *
+ *
  */
     interface Pay
     {

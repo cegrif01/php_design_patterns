@@ -11,6 +11,8 @@
 
 $ini_path=dirname(__FILE__);
 //$app_path = "/opt/lampp/htdocs/php_design_patterns/application/Employee.php";
-$app_path=$ini_path. "/../application/Employee.php";
-include($app_path);
-
+$app_path=$ini_path. "/../application/";
+$employee_path=$app_path."Employee.php";
+$sandwich_path=$app_path."Sandwich.php";
+include($employee_path);
+include($sandwich_path);
